@@ -6,7 +6,7 @@ make -j2
 make install
 cp ./src/argtable2.h /home/../mingw64/include/argtable2.h
 cd ..
-git clone https://github.com/xaya/libjson-rpc-cpp
+git clone https://github.com/domob1812/libjson-rpc-cpp/tree/listen-locally-0.7.0
 cd libjson-rpc-cpp
 mkdir win32-deps
 mkdir win32-deps/include
